@@ -1,4 +1,4 @@
-FROM ghcr.io/stevenblack/hosts:3.14.49
+FROM ghcr.io/stevenblack/hosts:3.14.31
 
 RUN apk add --no-cache bash grep
 
