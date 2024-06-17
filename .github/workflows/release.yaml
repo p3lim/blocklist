@@ -28,7 +28,7 @@ jobs:
         run: echo "version=$(grep -Po '(?<=HOSTS_VERSION=).+$' Dockerfile)" >> $GITHUB_OUTPUT
 
       - name: Build and push image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           push: true
           tags: |
