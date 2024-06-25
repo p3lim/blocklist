@@ -1,4 +1,4 @@
-ARG HOSTS_VERSION=3.14.65
+ARG HOSTS_VERSION=3.14.81
 FROM ghcr.io/stevenblack/hosts:$HOSTS_VERSION
 
 RUN apk add --no-cache bash grep
